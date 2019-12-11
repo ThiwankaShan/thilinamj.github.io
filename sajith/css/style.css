@@ -90,8 +90,9 @@ img {
 }
 
 .journal_img{
-    width: 25%;
+    width: 30%;
     margin-bottom: 23px;
+    box-shadow: 0 0 10px 0 rgba(50,50,50,.5);
 }
 .nav-link{
     color: #fff;
@@ -100,4 +101,38 @@ img {
 .form-control{
     background-color: transparent;
     border: 1px solid #cf9214;  
+    margin-right: 5px;
+}
+
+@media (min-width: 992px) {
+    .form-control{
+            padding-right: 162px;
+    }
+}
+
+.form-control:focus{
+    border-color:#feb908;  box-shadow: none; -webkit-box-shadow: none;
+    background-color: transparent;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #e1a764;
+    border: 1px solid rgba(0,0,0,.125);
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.list-group-item-action:hover {
+    background-color: #410e0e;
+    color: white;
+}
+
+.searchform{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
 }
