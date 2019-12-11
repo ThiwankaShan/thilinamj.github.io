@@ -14,6 +14,9 @@
     background-color: #410e0e;
     border-color: #410e0e;
 }
+.navimg{
+    width: 35%;
+}
 
 .navtext {
     color: white;
@@ -84,4 +87,17 @@ img {
         margin-left: 164px;
         margin-top: 15px;
     }
+}
+
+.journal_img{
+    width: 25%;
+    margin-bottom: 23px;
+}
+.nav-link{
+    color: #fff;
+}
+
+.form-control{
+    background-color: transparent;
+    border: 1px solid #cf9214;  
 }
