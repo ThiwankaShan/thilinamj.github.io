@@ -96,7 +96,7 @@ img {
     box-shadow: 0 0 10px 0 rgba(50,50,50,.5);
 }
 .nav-link{
-    color: #fff;
+    color:#007398;
 }
 
 .form-control{
@@ -139,4 +139,22 @@ img {
     display: flex;
     /* align-items: center; */
     justify-content: center;
+}
+
+.breadcrumb{
+    background-color:#fff;
+    font-size:medium;
+    padding-left:0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+
+.text-muted{
+    color:#007398;
+}
+
+.journal {
+    font-family:serif;
 }
