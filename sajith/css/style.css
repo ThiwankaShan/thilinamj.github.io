@@ -15,7 +15,7 @@
     border-color: #410e0e;
 }
 .navimg{
-    width: 35%;
+    width:35%;
 }
 
 .navtext {
@@ -95,7 +95,7 @@ img {
     box-shadow: 0 0 10px 0 rgba(50,50,50,.5);
 }
 .nav-link{
-    color:#007398;
+    font-size:20px;
 }
 
 .form-control{
@@ -141,16 +141,18 @@ img {
     background-color:#fff;
     font-size:medium;
     padding-left:0;
-}
 
+}
 .breadcrumb-item + .breadcrumb-item::before {
     content: ">";
-}
-
-.text-muted{
-    color:#007398;
 }
 
 .journal {
     font-family:serif;
 }
+
+.editor{
+    color:#007398;
+}
+
+
