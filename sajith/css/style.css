@@ -11,11 +11,12 @@
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #410e0e;
-    border-color: #410e0e;
+    background-color: #006699;
+    
+    
 }
 .navimg{
-    width: 35%;
+    width:25%;
 }
 
 .navtext {
@@ -95,7 +96,7 @@ img {
     box-shadow: 0 0 10px 0 rgba(50,50,50,.5);
 }
 .nav-link{
-    color: #fff;
+    font-size:20px;
 }
 
 .form-control{
@@ -119,20 +120,43 @@ img {
     display: block;
     padding: .75rem 1.25rem;
     margin-bottom: -1px;
-    background-color: #e1a764;
+    background-color:#0099cc;
     border: 1px solid rgba(0,0,0,.125);
     font-size: 18px;
-    color: black;
+    color:#fff;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 .list-group-item-action:hover {
-    background-color: #410e0e;
-    color: white;
+    background-color:#006699;
+    color:#ffffff
+    
 }
+   
 
 .searchform{
     display: flex;
     /* align-items: center; */
     justify-content: center;
 }
+
+.breadcrumb{
+    background-color:#fff;
+    font-size:medium;
+    padding-left:0;
+
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+
+.journal {
+    font-family:serif;
+}
+
+.editor{
+    color:#007398;
+}
+
+
