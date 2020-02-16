@@ -1,8 +1,13 @@
 .bg-dark {
-    background-color: #410e0e!important;
+    background-color:#0099cc !important;
     margin-bottom: 0 !important;
 }
-
+button.bg-dark:hover {
+    background-color: #006699!important;
+}
+.mb-5, .my-5 {
+    margin-bottom: 1rem!important;
+}
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(239, 210, 182);
     text-transform: uppercase;
